@@ -1,8 +1,8 @@
 <?php
-$servername = "localhost";
-$username = "root";
+$servername = "";
+$username = "";
 $password = "";
-$dbname = "test";
+$dbname = "";
 
 $conn = mysqli_connect($servername, $username, $password, $dbname) or die("Connection failed: " . mysqli_connect_error());
 
@@ -13,10 +13,10 @@ if (mysqli_connect_errno()) {
 }
 
 class Database {
-    private $db_host = 'localhost'; // Database Host
-    private $db_user = 'root'; // Username
+    private $db_host = ''; // Database Host
+    private $db_user = ''; // Username
     private $db_pass = ''; // Password
-    private $db_name = 'test'; // Database
+    private $db_name = ''; // Database
     private $con = false; // Checks to see if the connection is active
     private $result = array(); // Results that are returned from the query
     private $myconn;
