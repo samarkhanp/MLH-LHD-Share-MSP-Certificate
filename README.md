@@ -14,5 +14,5 @@ PDF Certificate generator for event attendees
   - Edit 'generate.php'
 
 ### Demo
-- [Click Here](https://thesap.tk/mlh)
+- [Click Here](http://thesap.tk/mlh)
 
